@@ -17,7 +17,7 @@
 			</div>
 			<div>
 				<h2 class="couleur">Formulaire d'inscription</h2>
-				<form class="place">
+				<form class="place" name="formulaire" onsubmit="return envoyer();">
 					Prénom et nom : <input type="text" name="nom"> <br /><br />
 					Vos disponibilités : <br />
 					<div class="place2">
@@ -66,4 +66,20 @@
 			<br />
 		</center>
 	</footer>
+	<script type="text/javascript">
+		function envoyer ()
+		{
+			var Nom = new RegExp(/^$/);
+			if (document.formulaire.nom.value.match(Nom))
+			{
+				alert("Veuillez entrer au moins votre prénom ...");
+				document.formulaire.nom.focus();
+				valid = false;
+       			return valid;
+			}
+			else{
+				alert("Merci de vous être inscrit :D");
+			}
+		}
+	</script>
 </html>
