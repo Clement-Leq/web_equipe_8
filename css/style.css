@@ -28,45 +28,25 @@ body {
 	justify-content: space-around;
 }
 
-/*
-#conteneur {
-	border: solid 1px red;
+/* css pour la barre menu pour toute les pages
+table {
+	border-collapse: collapse;
+}
 
-	width: 40%;
+td {
+	padding: 50px;
+}
+td:hover {
+	background-color: #3fe8ff
+}
+.conteneur {
 	display: flex;
-	flex: 2 0 2;
 }
 
-.box {
-	border: solid 1px black;
-
+#img {
+	width: 120px;
 }
-
-.un {
-	flex: 1 0 0;
-}
-.deux {
-	flex: 1 1 2;
-}
-
-.trois {
-	flex: 1 1 2;
-}
-
-.quatre {
-	flex: 1 1 1;
-}
-
-.cinq {
-	flex: 1 1 1;
-}
-
-.six {
-	flex: 1 1 1;
-}
-#image {
-	width: 20%;
-}*/
+*/
 
 /*CSS pour la page inscription*/
 .couleur {
