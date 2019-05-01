@@ -1,0 +1,29 @@
+body {
+	background-color: #16491c; /*#3fe8ff*/
+    z-index: 1;
+}
+
+.carre {
+	position: relative;
+	margin-top: 80px;
+	margin-left: 30px;
+	width: 800px;
+	background-color: #f3f78a;/*#ff7b00*/
+	z-index: 2;
+}
+
+.carre2 {
+	position: relative;
+	margin-left: 30px;
+	width: 800px;
+	background-color: #f4f2a4;/*#ff7b00*/
+	z-index: 2;
+	color: #16491c;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
