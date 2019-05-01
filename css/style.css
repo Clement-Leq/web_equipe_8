@@ -27,6 +27,7 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 }
+
 /*
 #conteneur {
 	border: solid 1px red;
@@ -66,3 +67,27 @@ body {
 #image {
 	width: 20%;
 }*/
+
+/*CSS pour la page inscription*/
+.couleur {
+	margin-left: 50px;
+	font-family: "Times New Roman", Times, serif;
+	color: #c64637;
+}
+
+.place{
+	margin-left: 40px;
+}
+
+.place2 {
+	margin-top: 5px;
+	margin-left: 100px;
+}
+
+.place3 {
+	margin-top: 30px;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	width: 140px;
+}
+
