@@ -27,3 +27,42 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 }
+/*
+#conteneur {
+	border: solid 1px red;
+
+	width: 40%;
+	display: flex;
+	flex: 2 0 2;
+}
+
+.box {
+	border: solid 1px black;
+
+}
+
+.un {
+	flex: 1 0 0;
+}
+.deux {
+	flex: 1 1 2;
+}
+
+.trois {
+	flex: 1 1 2;
+}
+
+.quatre {
+	flex: 1 1 1;
+}
+
+.cinq {
+	flex: 1 1 1;
+}
+
+.six {
+	flex: 1 1 1;
+}
+#image {
+	width: 20%;
+}*/
