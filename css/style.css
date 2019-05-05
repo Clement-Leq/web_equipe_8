@@ -71,3 +71,12 @@ td:hover {
 	width: 140px;
 }
 
+.placerecette {
+	margin-left: 50px;
+	display: flex;
+}
+
+.placegateau {
+	margin-top: 80px;
+	margin-left: 20px;
+}
