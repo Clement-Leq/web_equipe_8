@@ -76,6 +76,13 @@
 								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</p>
 						</div>
+						<form name="form_cookie">
+						    <p>
+						    <input type="button" value="Ajouter Cookie" onclick="addcookies()"><br />
+						    <input type="button" value="Lire Cookie" onclick="lire()"><br />
+						    <input type="button" value="Supprimer Cookie" onclick="supp()">
+							</p>
+						</form>
 					</article>	
 				</div>
 				<div>
@@ -131,4 +138,18 @@
 			</center>
 		</footer>
 	</body>
+	<script type="text/javascript">
+		function addcookies(){
+			cook=prompt('Donnez un nom au cookie:','')}
+			document.cookie=cook
+
+		function lire(){
+			if(cook==''){
+				alert("Il n'\y a pas de cookie stocké.")}
+			alert('Cookie stocké:'+cook);}
+
+
+		function supp(){
+			alert('Cookie supprimé.');cook='' }
+	</script>
 </html>
